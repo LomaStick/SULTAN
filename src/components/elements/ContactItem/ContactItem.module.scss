@@ -1,0 +1,24 @@
+.item{
+	display: flex;
+	flex-direction: column;
+	text-align: start;
+	&__wrapper{
+		display: flex;
+	}
+	&__icon{
+		margin-right: 15px;
+		display: flex;
+		align-items: center;
+	}
+	&__title{
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 130%;
+	}
+	&__subtitle{
+		font-size: 12px;
+		font-weight: 300;
+		line-height: 130%;
+	}
+	
+}

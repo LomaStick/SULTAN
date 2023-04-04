@@ -1,0 +1,83 @@
+.footer {
+	margin-top: 100px;
+	height: 500px;
+	padding: 70px 0 0 0;
+	background: #3F4E65;
+	color: #FFFFFF;
+	&__wrapper {
+		display: flex;
+	}
+	&__info {
+		max-width: 320px;
+		margin: 0 40px 0 0;
+		.footer-info {
+			&__desc {
+				margin: 15px 0 0 0;
+				font-size: 16px;
+				line-height: 150%;
+			}
+			&__subtitle {
+				font-size: 12px;
+				line-height: 150%;
+				margin: 45px 0 14px 0;
+			}
+		}
+	}
+	&__nav {
+		flex: 1 1 auto;
+		justify-content: space-between;
+	}
+}
+
+.footer-nav {
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: space-between;
+	&__title {
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 150%;
+		margin-bottom: 25px;
+	}
+	&__link {
+		font-size: 14px;
+		line-height: 150%;
+		&:not(:last-child){
+			margin-bottom: 20px;
+		}
+	}
+	&__list {
+		display: flex;
+		flex-direction: column;
+	}
+	&__subtitle {
+		margin-top: 20px;
+		font-size: 14px;
+		line-height: 150%;
+	}
+	&__icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		&:not(:last-child){
+			margin-right: 10px;
+		}
+		&_list{
+			margin-top: 15px;
+			display: flex;
+			align-items: center;
+		}
+		&_WhatsUp{
+			width: 39px;
+			height: 39px;
+			background: #00E676;
+			border-radius: 50%;
+		}
+		&_Telegram{
+			width: 39px;
+			height: 39px;
+			background:#40B3E0;
+			border-radius: 50%;
+		}
+	}
+}

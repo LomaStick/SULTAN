@@ -1,0 +1,23 @@
+.field-filter {
+	margin-top: 20px;
+	&__title {
+		margin-bottom: 15px;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 150%;
+	}
+}
+.field-filter-checkbox {
+	overflow-y: hidden;
+	margin-top: 15px;
+	&__list {
+		display: flex;
+		flex-direction: column;
+		height: 100px;
+		&._active{
+			height: 100%;
+		}
+	}
+}
+
+

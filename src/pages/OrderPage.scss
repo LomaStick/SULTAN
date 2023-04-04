@@ -1,0 +1,13 @@
+.orderPage {
+	&__title {
+		font-weight: 500;
+		font-size: 40px;
+		line-height: 120%;
+		text-transform: uppercase;
+	}
+	&__content{
+		display: flex;
+		margin-top: 50px;
+	}
+}
+

@@ -1,0 +1,133 @@
+.cart{
+	&__list {
+		&_empty {
+			margin-top: 30px;
+			font-weight: 700;
+			font-size: 30px;
+			line-height: 130%;
+		}
+	}
+	&__footer {
+		margin-top: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__totalPrice {
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 130%;
+	}
+}
+
+.orderCart {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 60px 35px 40px 20px;
+	background: #FFFFFF;
+	box-shadow: 0px 14px 39px -11px rgba(0, 0, 0, 0.06);
+	border-radius: 10px;
+	&__title {
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 120%;
+	}
+	&__list {
+		max-height: 615px;
+		overflow-y: auto;
+		&::-webkit-scrollbar{
+			width: 6px;
+		}
+		&::-webkit-scrollbar-track{
+			width: 4px;
+			background: #ffc85e66;
+			border-radius: 2px;
+		}
+		&::-webkit-scrollbar-thumb{
+			background: #FFC85E;
+			border: 2px solid #FFC85E;
+			border-radius: 2px;
+		}
+		flex: 1 1 auto;
+		&_empty {}
+	}
+}
+.orderCart-footer {
+	&__line {
+		border-top: 1px dashed #3f4e654d;
+		margin-top: 10px;
+		padding-top: 10px;
+		margin-bottom: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__title {
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 120%;
+	}
+	&__totalPrice {
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 130%;
+	}
+}
+
+.littleCart{
+	display: flex;
+	align-items: center;
+	&__icon {
+		z-index: 1;
+		position: relative;
+		margin: 0 25px 0 0;
+		svg{
+			fill: #3F4E65
+		}
+		&._alert {
+			span {
+				position: absolute;
+				top: -10px;
+				right: -10px;
+				width: 22px;
+				height: 22px;
+				background: #FFC85E;
+				border: 3px solid #FFFFFF;
+				border-radius: 50%;
+				text-align: center;
+				font-weight: 700;
+				font-size: 12px;
+				line-height: 17/14*100%;
+				color: #FFFFFF;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				z-index: 2;
+			}
+		}
+	}
+	&__content {
+		display: flex;
+		flex-direction: column;
+	}
+	&__title {
+		font-weight: 300;
+		font-size: 12px;
+		line-height: 150%;
+		color: #3F4E65;
+	}
+	&__price {
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 150%;
+		color:#111111;
+	}
+	&:hover{
+		.cart__title{
+			text-decoration: underline;
+		}
+		
+	}
+}

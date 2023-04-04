@@ -1,0 +1,26 @@
+.price-filter {
+	margin-top: 10px;
+	&__title {
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 150%;
+		color: #3F4E65
+	}
+	&__wrapper{
+		margin-top: 15px;
+	}
+	&__input {
+		width: 100px;
+		height: 23px;
+		background: linear-gradient(90deg, rgba(255, 198, 80, 0.3) 0%, rgba(254, 202, 110, 0.3) 97.25%);
+		border-radius: 1000px;
+		text-align: center;
+		font-weight: 300;
+		font-size: 12px;
+		line-height: 15px;
+		color: #3F4E65;
+	}
+	&__delimeter{
+		margin: 0 10px;
+	}
+}

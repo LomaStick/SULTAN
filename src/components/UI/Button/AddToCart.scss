@@ -1,0 +1,27 @@
+.ButtonAddToCart {
+	width: 185px;
+	height: 59px;
+	padding: 21px 26px;
+	background: #FFC85E;
+	border-radius: 79px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 130%;
+	color: #FFFFFF;
+	&__text {
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 130%;
+		color: #FFFFFF;
+	}
+	&__icon {
+		svg{
+			width: 20px;
+			height: 14px;
+			fill: #FFFFFF;
+		}
+	}
+}

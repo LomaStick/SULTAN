@@ -1,0 +1,36 @@
+.catalogList{
+	&_grid{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: (auto, 490px);
+		gap: 20px;
+	}
+	&_error{
+		font-size: 32px;
+		font-weight: 800;
+		line-height: 150%;
+		text-align: center;
+		margin-top: 100px;
+	}
+	&__pagination{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 50px auto 0 auto;
+		padding: 0 35px;
+		&_icon{
+			cursor: pointer;
+			font-size: 16px;
+			
+			&:first-child{
+				margin-right: 35px;
+			}
+			&:last-child{
+				margin-left: 35px;
+			}
+			svg{
+				fill: #FFC85E;
+			}
+		}
+	}
+}

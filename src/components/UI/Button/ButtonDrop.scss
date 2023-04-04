@@ -1,0 +1,18 @@
+.ButtonDrop{
+	margin-top: 15px;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 150%;
+	color: #3F4E65;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	span{
+		margin-right: 5px;
+	}
+	&._active{
+		svg{
+			transform: rotate(180deg);
+		}
+	}
+}

@@ -1,0 +1,10 @@
+.Checkbox {
+	color: #3F4E65;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+	&__input {
+		margin-right: 5px;
+		cursor: pointer;
+	}
+}

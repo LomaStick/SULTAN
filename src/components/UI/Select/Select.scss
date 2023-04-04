@@ -1,0 +1,40 @@
+.select {
+	width: 120px;
+	padding: 0 10px;
+	font-size: 16px;
+	line-height: 150%;
+	color: #3F4E65;
+	cursor: pointer;
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		position: relative;
+		-moz-user-select: none;
+		-khtml-user-select: none;
+		user-select: none; 
+	}
+	&__options {
+		width: 120px;
+		padding: 0 10px;
+		position: absolute;
+		font-size: 16px;
+		line-height: 150%;
+		color: #3F4E65;
+		background-color: #FFFFFF;
+		top: 28px;
+		right: 0;
+		cursor: pointer;
+		border-top: 2px dashed #3f3f3f;
+		&_option {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+	}
+	&_active{}
+	&__icon {
+		svg{
+			fill: #3f4e6580;
+		}
+	}
+}
